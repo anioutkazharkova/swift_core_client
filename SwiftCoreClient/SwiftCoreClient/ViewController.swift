@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SwiftCoreClient
 //
-//  Created by 1 on 14.04.2019.
+//   Created by azharkova on 14.04.2019.
 //  Copyright © 2019 azharkova. All rights reserved.
 //
 
