@@ -1,6 +1,6 @@
 //
 //  DIContainer.swift
-//  MoviesSearch
+
 //
 //   Created by azharkova on 16.02.2019.
 //  Copyright © 2019 1. All rights reserved.
@@ -38,5 +38,5 @@ class DIContainer: IDIContainer {
         }
         return _authManager!
     }
-    
+
 }

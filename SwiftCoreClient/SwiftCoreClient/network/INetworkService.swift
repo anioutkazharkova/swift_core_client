@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 protocol INetworkService: class {
-    
+
     func request<T>(url: URLConvertible,
                     parameters: [String: Any],
                     method: Methods,
@@ -21,7 +21,7 @@ protocol INetworkService: class {
                     parameters: [String: Any],
                     method: Methods,
                     completion: @escaping (ContentResponse<T>) -> Void)
-    
+
     func request<T>(url: URLConvertible,
                     parameters: [String: Any],
                     method: Methods,
@@ -39,7 +39,7 @@ protocol INetworkService: class {
                           encoding: ParameterEncoding,
                           version: Int,
                           completion: @escaping (ContentResponse<T>) -> Void)
-    
+
     func requestString<T>(url: URLConvertible,
                           parameters: [String: Any],
                           method: Methods,
@@ -49,6 +49,6 @@ protocol INetworkService: class {
     func processResponse<T>(result: ContentResponse<T>?) -> ContentResponse<SimpleResponse>
 
     func checkNeedReauth<T>(result: ContentResponse<T>) -> Bool
-    
+
     func cancelAllRequests()
 }

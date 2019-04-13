@@ -1,6 +1,6 @@
 //
 //  ErrorResponse.swift
-//  MoviesSearch
+
 //
 //   Created by azharkova on 16.02.2019.
 //  Copyright © 2019 azharkova. All rights reserved.

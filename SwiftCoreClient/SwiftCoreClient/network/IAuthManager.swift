@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol IAuthManager : class {
+protocol IAuthManager: class {
     func auth(username: String?, password: String?, completion: @escaping(ContentResponse<TokenResponse>) -> Void)
     func reauth(completion: @escaping(ContentResponse<TokenResponse>) -> Void)
 }

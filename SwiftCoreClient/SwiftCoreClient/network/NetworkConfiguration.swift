@@ -1,6 +1,6 @@
 //
 //  NetworkConfiguration.swift
-//  MoviesSearch
+
 //
 //   Created by azharkova on 16.02.2019.
 //  Copyright © 2019 azharkova. All rights reserved.
@@ -42,7 +42,7 @@ class NetworkConfiguration: INetworkConfiguration {
 
         return headers
     }
-    
+
     func getBaseUrl() -> String {
         return "\(apiUrl)"
     }
